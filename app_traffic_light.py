@@ -44,7 +44,7 @@ st.markdown("""
 # =======================
 st.header("🧮 1. Parámetros de Entrada")
 with st.expander("📥 Ingreso de Flujos y Capacidades", expanded=True):
-    st.subheader("🚗 Flujos Vehiculares (ucp/h)")
+    st.subheader("🚗 Flujos Vehiculares directos equivalentes (ucpd/h) o Automoviles directos equivalentes")
     col1, col2 = st.columns(2)
     with col1:
         q = {
