@@ -57,17 +57,17 @@ with st.expander("📥 Ingreso de Flujos y Capacidades", expanded=True):
             'oeste': st.number_input('⬇️ Oeste:', value=1200, min_value=0)
         })
 
-    st.subheader("📊 Capacidades Vehiculares (ucp/h)")
+    st.subheader("📊 Flujos de Saturación (ucp/h)")
     col1, col2 = st.columns(2)
     with col1:
         S = {
-            'norte': st.number_input('➡️ Capacidad Norte:', value=2400, min_value=1),
-            'sur':   st.number_input('⬅️ Capacidad Sur:', value=2000, min_value=1)
+            'norte': st.number_input('➡️ Flujos de Saturación Norte:', value=2400, min_value=1),
+            'sur':   st.number_input('⬅️ Flujos de Saturación Sur:', value=2000, min_value=1)
         }
     with col2:
         S.update({
-            'este':  st.number_input('⬆️ Capacidad Este:', value=3000, min_value=1),
-            'oeste': st.number_input('⬇️ Capacidad Oeste:', value=3000, min_value=1)
+            'este':  st.number_input('⬆️ Flujos de Saturación Este:', value=3000, min_value=1),
+            'oeste': st.number_input('⬇️ Flujos de Saturación Oeste:', value=3000, min_value=1)
         })
 
 st.markdown("### ⚙️ Parámetros del Ciclo Semafórico")
