@@ -35,7 +35,7 @@ st.markdown("""
 # =======================
 st.markdown("""
     <h1 class='centered' style='color: #004d99;'>🚦 Cálculo de Tiempos Semafóricos Vehicular y Peatonal</h1>
-    <h3 class='centered' style='color: gray;'>📐 Basado en el Método Determinístico de Webster</h3>
+    <h3 class='centered' style='color: gray;'>📐 Desarrollado en base al Método Determinístico de Webster</h3>
     <hr style='border: 1px solid #e0e0e0;'>
 """, unsafe_allow_html=True)
 
