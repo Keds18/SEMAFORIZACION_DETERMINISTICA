@@ -173,7 +173,7 @@ st.markdown("""
 <hr>
 <div style='text-align: center; font-size: 0.9em; color: gray;'>
     <p>© 2025 <strong>Traffic_Light_Kevin_Galindo_Antezana</strong> | All rights reserved, please reference.</p>
-    <p>📧 Contacto: <a href="mailto:keds1810@gmail.com">keds1810@gmail.com</a></p>
+    <p>📧 Contact: <a href="mailto:keds1810@gmail.com">keds1810@gmail.com</a></p>
     <p>Developed with Python + Streamlit</p>
     <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
     </div>
