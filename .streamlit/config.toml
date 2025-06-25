@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#388E3C"              # Verde profesional para botones y acentos
+backgroundColor = "#FBFEF9"           # Fondo general blanco con un toque verde aún más claro
+secondaryBackgroundColor = "#F1F8E9"  # Fondo secundario verde muy claro para paneles
+textColor = "#1B3C1A"                 # Verde oscuro profundo para excelente contraste y legibilidad
+font = "sans serif"                   # Fuente moderna y limpia
+
+[browser]
+gatherUsageStats = false
