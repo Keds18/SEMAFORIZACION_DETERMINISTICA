@@ -44,7 +44,7 @@ st.markdown("""
 # =======================
 st.header("🧮 1. Parámetros de Entrada")
 with st.expander("📥 Ingreso de Flujos y Capacidades", expanded=True):
-    st.subheader("🚗 Flujos Vehiculares directos equivalentes (ucpd/h) o Automoviles directos equivalentes")
+    st.subheader("🚗 Flujos Vehiculares directos equivalentes (ucpd/h) o Automoviles directos equivalentes(ADE/h)")
     col1, col2 = st.columns(2)
     with col1:
         q = {
@@ -57,7 +57,7 @@ with st.expander("📥 Ingreso de Flujos y Capacidades", expanded=True):
             'oeste': st.number_input('⬇️ Oeste:', value=1200, min_value=0)
         })
 
-    st.subheader(" 📊 Flujos de Saturación (ucp/h)")
+    st.subheader(" 📊 Flujos de Saturación ")
     col1, col2 = st.columns(2)
     with col1:
         S = {
